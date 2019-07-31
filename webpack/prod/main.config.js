@@ -19,7 +19,7 @@ const config = merge.smart(baseConfig, {
     rules: [
       {
         test: /\.node$/,
-        loader: 'native-ext-loader',
+        loader: 'node-loader',
       },
     ],
   },

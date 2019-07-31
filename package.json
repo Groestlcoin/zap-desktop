@@ -103,9 +103,17 @@
       }
     ],
     "artifactName": "${productName}-${os}-${arch}-v${version}.${ext}",
+    "afterSign": "./scripts/afterSignHook.js",
     "mac": {
       "category": "public.app-category.finance",
       "icon": "resources/icon.icns",
+      "hardenedRuntime": true,
+      "gatekeeperAssess": false,
+      "binaries": [
+        "node_modules/keytar/build/Release/keytar.node"
+      ],
+      "entitlements": "./resources/mac/entitlements.mac.inherit.plist",
+      "entitlementsInherit": "./resources/mac/entitlements.mac.inherit.plist",
       "target": [
         "dmg",
         "zip"
@@ -277,8 +285,8 @@
     "lnd-binary": "0.3.14",
     "minimist": "1.2.0",
     "mock-spawn": "0.2.6",
-    "native-ext-loader": "2.3.0",
     "nock": "11.7.0",
+    "node-loader": "0.6.0",
     "prettier": "1.18.2",
     "ps-node": "0.1.6",
     "react-storybook-addon-chapters": "3.1.6",
