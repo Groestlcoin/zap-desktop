@@ -135,7 +135,7 @@ const getSetting = (store, key) => {
  */
 const singleInstanceLock = app.requestSingleInstanceLock()
 if (!singleInstanceLock) {
-  mainLog.error('Unable to get single instance lock. It looks like you already have Zap open?')
+  mainLog.error('Unable to get single instance lock. It looks like you already have ZAP GRS open?')
   app.quit()
 }
 

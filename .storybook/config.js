@@ -53,8 +53,8 @@ addDecorator(withKnobs)
 // Options
 addParameters({
   options: {
-    brandTitle: 'Zap',
-    brandUrl: 'https://ln-zap.github.io/zap-desktop',
+    brandTitle: 'ZAP GRS',
+    brandUrl: 'https://github.com/Groestlcoin/zap-desktop',
     theme: themes.dark,
     hierarchySeparator: /\./,
   },
