@@ -1,4 +1,4 @@
-# Zap
+# ZAP GRS
 
 <p align='center'>
   <a href='https://zap.jackmallers.com'>
@@ -12,9 +12,9 @@
 [![dependencies Status](https://david-dm.org/LN-Zap/zap-desktop/status.svg)](https://david-dm.org/LN-Zap/zap-desktop)
 [![Build Status](https://img.shields.io/travis/LN-Zap/zap-desktop/master.svg?style=flat-green&label=mac%20/%20linux&logo=travis)](https://travis-ci.org/LN-Zap/zap-desktop) [![Build status](https://img.shields.io/appveyor/ci/LN-Zap/zap-desktop/master.svg?style=flat-green&label=windows&logo=appveyor)](https://ci.appveyor.com/project/LN-Zap/zap-desktop/branch/master) [![Coverage Status](https://coveralls.io/repos/github/LN-Zap/zap-desktop/badge.svg?branch=master)](https://coveralls.io/github/LN-Zap/zap-desktop?branch=master) [![GitHub Release](https://badgen.net/github/release/LN-Zap/zap-desktop/)](https://github.com/LN-Zap/zap-desktop/releases/latest) [![Keybase Verify](https://badgen.net/keybase/pgp/ln_zap)](https://keybase.io/ln_zap) [![Twitter Follow](https://img.shields.io/twitter/follow/ln_zap?style=social)](https://twitter.com/ln_zap)
 
-Zap is a free Lightning Network wallet focused on user experience and ease of use, with the overall goal of helping the cryptocurrency community scale Bitcoin.
+ZAP GRS is a free Lightning Network wallet focused on user experience and ease of use, with the overall goal of helping the cryptocurrency community scale Groestlcoin.
 
-The UI for Zap is created using
+The UI for ZAP GRS is created using
 [Electron](https://electron.atom.io/) + [React](https://facebook.github.io/react/) + [Redux](https://github.com/reactjs/redux/tree/master/docs).
 
 We have an active [slack][slack] channel where you can join the discussion on development, design and product.
@@ -32,7 +32,7 @@ We have an active [slack][slack] channel where you can join the discussion on de
 
 ## Security
 
-If you discover or learn about a potential error, weakness, or threat that can compromise the security of Zap, we ask you to keep it confidential and [submit your concern directly to the Zap security team](mailto:jimmymowschess@gmail.com?subject=[GitHub]%20Zap%20Security).
+If you discover or learn about a potential error, weakness, or threat that can compromise the security of Zap, we ask you to keep it confidential and [submit your concern directly to the Groestlcoin security team](mailto:support@groestlcoin.org?subject=[GitHub]%20Zap%20Security).
 
 ## Install
 
@@ -64,7 +64,7 @@ Once executible you can run either **double click** the file or run via the cli:
 
 ## Documentation
 
-If you would like to install from source, run a full bitcoin node, connect to a custom lnd instance or get involved with development please refer to our documentation:
+If you would like to install from source, run a full Groestlcoin node, connect to a custom lnd instance or get involved with development please refer to our documentation:
 
 - [Advanced usage](docs/ADVANCED.md)
 - [Configuration](docs/CONFIG.md)
@@ -76,18 +76,21 @@ If you would like to install from source, run a full bitcoin node, connect to a 
 
 ## Get Help
 
-If you are having problems with Zap, please report the issue in [GitHub][issues] or on [slack][slack] with screenshots and/or how to reproduce the bug/error.
+If you are having problems with ZAP GRS, please report the issue in [GitHub][issues] or on [slack][slack] with screenshots and/or how to reproduce the bug/error.
 
-A good product not only has good software tests but also checks the quality of the UX/UI. Putting ourselves in the shoes of a user is a very important design principle of Zap.
+A good product not only has good software tests but also checks the quality of the UX/UI. Putting ourselves in the shoes of a user is a very important design principle of ZAP GRS.
 
-## Maintainers
+## Maintainers for ZAP GRS
+- [Hash Engineering Solutions](https://github.com/HashEngineering)
+
+## Maintainers for the original Zap
 
 - [Jack Mallers (@JimmyMow)](https://github.com/JimmyMow)
 - [Tom Kirkpatrick (@mrfelton)](https://github.com/mrfelton)
 
 ## Contribute
 
-Hey! Do you like Zap? Awesome! We could actually really use your help!
+Hey! Do you like ZAP GRS? Awesome! We could actually really use your help!
 
 Open source isn't just writing code. Zap could use your help with any of the following:
 
