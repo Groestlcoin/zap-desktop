@@ -429,7 +429,7 @@
   "components.Request.button_text": "Be om",
   "components.Request.copy_button_text": "Kopiér betalingsforespørsel",
   "components.Request.current_value": "Nåværende verdi",
-  "components.Request.description": "Zap vil generere en QR-kode og en betalingsforespørsel slik at du kan motta {chain} ({ticker}) gjennom Lightning-nettverket.",
+  "components.Request.description": "ZAP GRS vil generere en QR-kode og en betalingsforespørsel slik at du kan motta {chain} ({ticker}) gjennom Lightning-nettverket.",
   "components.Request.expired": "Utløpt",
   "components.Request.expires": "Utløper",
   "components.Request.memo": "Beskjed",
