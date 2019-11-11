@@ -11,7 +11,7 @@ Thanks for being willing to contribute!
 
 #### **Did you find a bug?**
 
-- **Do not open up a GitHub issue if the bug is a security vulnerability in Zap**, and instead to refer to our [Security Policy](/README.md#security).
+- **Do not open up a GitHub issue if the bug is a security vulnerability in ZAP GRS**, and instead to refer to our [Security Policy](/README.md#security).
 
 - **Ensure the bug was not already reported** by searching on GitHub under [Issues][issues].
 
@@ -31,7 +31,7 @@ Thanks for being willing to contribute!
 
 #### **Do you have questions about the source code?**
 
-- Ask any question about the Zap source code in [slack][slack].
+- Ask any question about the ZAP GRS source code in [slack][slack].
 
 ## Contribution Guidelines
 
@@ -104,7 +104,7 @@ This project has eslint rules and pull requests should pass `npm run lint` befor
 
 ### Tests
 
-Tests should try to be written for every feature/fix and pass `npm run test` before being merged. With the demand for the Lightning Network and Zap rising, rapid development will naturally leave some code untested but we should all try our best.
+Tests should try to be written for every feature/fix and pass `npm run test` before being merged. With the demand for the Lightning Network and ZAP GRS rising, rapid development will naturally leave some code untested but we should all try our best.
 
 [commitlint]: http://marionebl.github.io/commitlint/#/
 [convention]: https://conventionalcommits.org/

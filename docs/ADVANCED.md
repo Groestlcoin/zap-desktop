@@ -2,17 +2,17 @@
 
 ## Table of Contents
 
-- [Compiling Zap From Source](#compiling-zap-from-source)
+- [Compiling ZAP GRS From Source](#compiling-zap-from-source)
 - [Lightning Network Daemon (lnd)](#lightning-network-daemon-lnd)
-- [Running Zap](#running-zap)
+- [Running ZAP GRS](#running-zap)
 
-## Compiling Zap From Source
+## Compiling ZAP GRS From Source
 
 **_Note:_** _If you have installation or compilation issues, please file a [Github issue][issues] or ping us in [Slack][slack]._
 
 ### Prerequisites
 
-To compile the Zap wallet, you will need:
+To compile the ZAP GRS wallet, you will need:
 
 - **[Node.js version >= 12](https://nodejs.org)** and **[npm version >= 5](https://www.npmjs.com)**
 - **[yarn](https://yarnpkg.com/lang/en/docs/install/)**
@@ -38,15 +38,15 @@ yarn
 
 ### Option 1: default:
 
-Zap installs `lnd` for you as part of the installation process. Zap will automatically start the internal `lnd` daemon for you when you select the `default` connection type during the on-boarding process. In this mode we run `lnd` as a light client called `neutrino` (BIP 157 & BIP 158) which allows us to run `lnd` without requiring a Bitcoin full node on your system - Instead, Zap will connect to one Zap's hosted BTC full nodes.
+Zap installs `lnd` for you as part of the installation process. Zap will automatically start the internal `lnd` daemon for you when you select the `default` connection type during the on-boarding process. In this mode we run `lnd` as a light client called `neutrino` (BIP 157 & BIP 158) which allows us to run `lnd` without requiring a Groestlcoin full node on your system - Instead, ZAP GRS will connect to one ZAP GRS's hosted GRS full nodes.
 
 ### Option 2: custom:
 
-To setup your own `lnd` for use with Zap please follow the instructions on the [lnd installation](https://github.com/lightningnetwork/lnd/blob/master/docs/INSTALL.md) page. Select the `custom` connection type during the on-boarding process to use your own `lnd` with Zap.
+To setup your own `lnd` for use with ZAP GRS please follow the instructions on the [lnd installation](https://github.com/lightningnetwork/lnd/blob/master/docs/INSTALL.md) page. Select the `custom` connection type during the on-boarding process to use your own `lnd` with ZAP GRS.
 
-**_Note:_** _Your `lnd` node must already be running and unlocked in order for Zap to connect to it. Ensure that lnd's RPC server is listening on an external interface and that your firewall permits access to it._
+**_Note:_** _Your `lnd` node must already be running and unlocked in order for ZAP GRS to connect to it. Ensure that lnd's RPC server is listening on an external interface and that your firewall permits access to it._
 
-## Running Zap
+## Running ZAP GRS
 
 ### Testing
 
@@ -58,7 +58,7 @@ yarn test
 
 ### Running
 
-To run Zap in development mode:
+To run ZAP GRS in development mode:
 
 ```bash
 yarn dev

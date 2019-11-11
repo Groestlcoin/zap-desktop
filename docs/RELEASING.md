@@ -13,9 +13,9 @@
 
 We use [Electron Builder](https://github.com/electron-userland/electron-builder) to build and package the app for production. This gets uploaded to Github, reviewed, tested, documented, signed, and then finally released.
 
-The final releases can be [downloaded from Github](https://github.com/LN-Zap/zap-desktop/releases).
+The final releases can be [downloaded from Github](https://github.com/LN-ZAP GRS/zap-desktop/releases).
 
-Existing users that have autoupdates enabled will be promoted to download the new release automatically from within Zap.
+Existing users that have autoupdates enabled will be promoted to download the new release automatically from within ZAP GRS.
 
 ## Building
 
@@ -33,7 +33,7 @@ Once a correctly named draft release exists on Github, the publish phase of our 
 
 As long as the draft release exists, each new commit to the `next` or `master` branch will cause the release assets to be rebuilt and reuploaded to the draft relase on Github, ensuring that it always includes an up to date build that is ready for testing.
 
-Mac and Linux builds are generated on [Travis](https://travis-ci.com/LN-Zap/zap-desktop) whilst Windows builds are generated on [Appveyor](https://ci.appveyor.com/project/LN-Zap/zap-desktop).
+Mac and Linux builds are generated on [Travis](https://travis-ci.com/LN-ZAP GRS/zap-desktop) whilst Windows builds are generated on [Appveyor](https://ci.appveyor.com/project/LN-ZAP GRS/zap-desktop).
 
 ## Release notes
 
@@ -51,7 +51,7 @@ Review the generated release notes and then copy/paste them onto the draft relea
 
 As part of the build process Electron Builder will automaitcally sign the release assets with our code signing certificates. This enables Mac and Windows users to install the software without any warnings from their operating system.
 
-In addition, we generate a file that contains a checksum of each release asset and then sign this file with the Zap Solutions GPG key.
+In addition, we generate a file that contains a checksum of each release asset and then sign this file with the ZAP GRS Solutions GPG key.
 
 The following command can be used to sign a release:
 
@@ -60,7 +60,7 @@ $ cd zap-desktop
 $ ./scripts/signedchecksum.sh
 ```
 
-This will generate a file named `SHASUMS256.txt.asc` which should be uploaded to the draft release just prior to releasing. This ensures that our users can verify that the package they download was indeed the one created and signed by Zap.
+This will generate a file named `SHASUMS256.txt.asc` which should be uploaded to the draft release just prior to releasing. This ensures that our users can verify that the package they download was indeed the one created and signed by ZAP GRS.
 
 ## Releasing
 

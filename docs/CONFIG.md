@@ -13,7 +13,7 @@ Configuration is handled using the [node-config](https://github.com/lorenwest/no
 
 It lets us define a set of default parameters, and extend them for different builds and environments (development, production, etc.).
 
-Configurations are stored in configuration files and can be overridden and extended by environment variables, command line parameters, or via the Zap UI in many cases.
+Configurations are stored in configuration files and can be overridden and extended by environment variables, command line parameters, or via the ZAP GRS UI in many cases.
 
 ### Config files
 
@@ -26,7 +26,7 @@ Configuration files live in the [`config`](../config) directory. The following f
   Defines config overrides to be applied for specific `NODE_ENV` values.
 
 - **local.js**  
-  Defines config overrides applied to all environments and builds. This file is excluded from git so you will need to create the file yourself. _It is recommended to use this file to make temporary changes when developing or testing Zap._
+  Defines config overrides applied to all environments and builds. This file is excluded from git so you will need to create the file yourself. _It is recommended to use this file to make temporary changes when developing or testing ZAP GRS._
 
 - **custom-environment-variables.json**  
   Defines a mapping between environment variables and config values.
@@ -37,7 +37,7 @@ Available config options change from time to time so rather than list them all h
 
 ## Examples
 
-Following are some examples of config overrides that you might find useful when developing Zap or making your own custom build to run.
+Following are some examples of config overrides that you might find useful when developing ZAP GRS or making your own custom build to run.
 
 #### 1. Change the default network to Testnet
 
