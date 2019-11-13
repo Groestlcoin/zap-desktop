@@ -1,6 +1,6 @@
 {
-  "name": "zap-desktop",
-  "productName": "Zap",
+  "name": "zap-grs-desktop",
+  "productName": "ZAP_GRS",
   "version": "0.5.4-beta",
   "description": "desktop application for the lightning network",
   "scripts": {
@@ -60,8 +60,8 @@
     "yarn": ">=1.0.0"
   },
   "build": {
-    "productName": "Zap",
-    "appId": "org.develar.Zap",
+    "productName": "ZAP GRS",
+    "appId": "org.groestlcoin.Zap",
     "generateUpdatesFilesForAllChannels": true,
     "files": [
       "dist/",
@@ -102,6 +102,12 @@
         "name": "Lnd Connect",
         "schemes": [
           "lndconnect"
+        ]
+      },
+      {
+        "name": "Groestlcoin",
+        "schemes": [
+          "groestlcoin"
         ]
       }
     ],
@@ -152,9 +158,9 @@
         }
       ],
       "desktop": {
-        "Comment": "Zap - Lightning wallet",
+        "Comment": "ZAP GRS - Lightning wallet",
         "Icon": "zap",
-        "Name": "Zap",
+        "Name": "ZAP GRS",
         "StartupNotify": "true",
         "Terminal": "false",
         "Type": "Application",
@@ -164,14 +170,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LN-Zap/zap-desktop"
+    "url": "git+https://github.com/Groestlcoin/zap-desktop"
   },
-  "author": "Jack Mallers <jimmymowschess@gmail.com> (https://github.com/jackmallers)",
+  "author": "Hash Engineering Solutions <hashengineeringsolutions@gmail.com> (https://github.com/HashEngineering)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/LN-Zap/zap-desktop/issues"
+    "url": "https://github.com/Groestlcoin/zap-desktop/issues"
   },
-  "homepage": "https://github.com/LN-Zap/zap-desktop#readme",
+  "homepage": "https://github.com/Groestlcoin/zap-desktop#readme",
   "jest": {
     "collectCoverageFrom": [
       "renderer/**/*.js",
@@ -272,7 +278,7 @@
     "gh-pages": "2.0.1",
     "html-webpack-plugin": "3.2.0",
     "husky": "2.4.1",
-    "jest": "24.8.0",
+    "jest": "^24.8.0",
     "jest-styled-components": "6.3.3",
     "lnd-binary": "0.3.11",
     "minimist": "1.2.0",
@@ -308,8 +314,9 @@
     "bip21": "2.0.2",
     "bip39-en": "1.1.1",
     "bitcoinjs-lib": "5.0.5",
+    "groestlcoinjs-lib": "https://github.com/Groestlcoin/groestlcoinjs-lib#4.0.2",
     "bolt11": "1.2.5",
-    "coininfo": "5.1.0",
+    "coininfo": "https://github.com/Groestlcoin/coininfo#add-grs",
     "comlinkjs": "3.2.0",
     "config": "3.1.0",
     "copy-to-clipboard": "3.2.0",
