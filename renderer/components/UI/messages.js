@@ -18,7 +18,7 @@ export default defineMessages({
   invalid_lnd_connection_string: 'Not a valid connection string',
   payreq_placeholder: 'Paste a Lightning Payment Request or {chain} Address here',
   pubkey_placeholder: 'pubkey@host:port',
-  lnd_connection_string_placeholder: 'Paste an Lnd Connect URI or BTCPay Server config here',
+  lnd_connection_string_placeholder: 'Paste an Lnd Connect URI or GRSPay Server config here',
   transaction_speed_slow: 'Slow',
   transaction_speed_medium: 'Medium',
   transaction_speed_fast: 'Fast',
