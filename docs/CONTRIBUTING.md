@@ -109,7 +109,7 @@ Tests should try to be written for every feature/fix and pass `npm run test` bef
 [commitlint]: http://marionebl.github.io/commitlint/#/
 [convention]: https://conventionalcommits.org/
 [eslint]: https://eslint.org/
-[issues]: https://github.com/LN-Zap/zap-desktop/issues
+[issues]: https://github.com/Groestlcoin/zap-desktop/issues
 [prettier]: https://prettier.io/
 [slack]: https://join.slack.com/t/zaphq/shared_invite/enQtMzgyNDA2NDI2Nzg0LTQwZWQ2ZWEzOWFhMjRiNWZkZWMwYTA4MzA5NzhjMDNhNTM5YzliNDA4MmZkZWZkZTFmODM4ODJkYzU3YmI3ZmI
 

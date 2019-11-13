@@ -16,15 +16,15 @@ Release signing allows users to verify that the artifacts they have downloaded w
 
 ## Signing Keys
 
-All Zap release artifacts are signed using [GnuPG](http://www.gnupg.org/) and [our release signing key](https://github.com/LN-Zap/signing-keys/releases/download/1.0/zap-release-signing-key.asc).
+All Zap release artifacts are signed using [GnuPG](http://www.gnupg.org/) and [our release signing key](https://github.com/Groestlcoin/signing-keys/releases/download/1.0/zap-release-signing-key.asc).
 
 ## Importing Signing Keys
 
-Before signatures can be verified, the Zap [signing key](https://github.com/LN-Zap/signing-keys/releases/download/1.0/zap-release-signing-key.asc) must be downloaded. The key can be obtained directly or using the [SKS keyservers pool](https://sks-keyservers.net/overview-of-pools.php). The direct download method is recommended because SKS servers are prone to overload.
+Before signatures can be verified, the Zap [signing key](https://github.com/Groestlcoin/signing-keys/releases/download/1.0/zap-release-signing-key.asc) must be downloaded. The key can be obtained directly or using the [SKS keyservers pool](https://sks-keyservers.net/overview-of-pools.php). The direct download method is recommended because SKS servers are prone to overload.
 
 ### Direct Download
 
-The key is distributed via [GitHub](https://github.com/LN-Zap/signing-keys/releases/) and [Keybase](https://keybase.io/ln_zap)
+The key is distributed via [GitHub](https://github.com/Groestlcoin/signing-keys/releases/) and [Keybase](https://keybase.io/ln_zap)
 
 **Import from Keybase:**
 

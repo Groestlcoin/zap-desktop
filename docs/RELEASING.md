@@ -13,7 +13,7 @@
 
 We use [Electron Builder](https://github.com/electron-userland/electron-builder) to build and package the app for production. This gets uploaded to Github, reviewed, tested, documented, signed, and then finally released.
 
-The final releases can be [downloaded from Github](https://github.com/LN-ZAP GRS/zap-desktop/releases).
+The final releases can be [downloaded from Github](https://github.com/Groestlcoin/zap-desktop/releases).
 
 Existing users that have autoupdates enabled will be promoted to download the new release automatically from within ZAP GRS.
 
@@ -33,7 +33,7 @@ Once a correctly named draft release exists on Github, the publish phase of our 
 
 As long as the draft release exists, each new commit to the `next` or `master` branch will cause the release assets to be rebuilt and reuploaded to the draft relase on Github, ensuring that it always includes an up to date build that is ready for testing.
 
-Mac and Linux builds are generated on [Travis](https://travis-ci.com/LN-ZAP GRS/zap-desktop) whilst Windows builds are generated on [Appveyor](https://ci.appveyor.com/project/LN-ZAP GRS/zap-desktop).
+Mac and Linux builds are generated on [Travis](https://travis-ci.com/Groestlcoin/zap-desktop) whilst Windows builds are generated on [Appveyor](https://ci.appveyor.com/project/Groestlcoin/zap-desktop).
 
 ## Release notes
 

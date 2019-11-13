@@ -114,6 +114,15 @@ This project exists thanks to all the people who contribute.
 
 This project is open source under the MIT license, which means you have full access to the source code and can modify it to fit your own needs. See [LICENSE](LICENSE) for more information.
 
+[MIT](LICENSE) © Hash Engineering Solutions
+
+[issues]: https://github.com/Groestlcoin/zap-desktop/issues
+[releases]: https://github.com/Groestlcoin/zap-desktop/releases
+
+## License for the original Zap
+
+This project is open source under the MIT license, which means you have full access to the source code and can modify it to fit your own needs. See [LICENSE](LICENSE) for more information.
+
 [MIT](LICENSE) © Jack Mallers
 
 [issues]: https://github.com/LN-Zap/zap-desktop/issues

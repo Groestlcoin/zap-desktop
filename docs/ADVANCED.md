@@ -22,7 +22,7 @@ To compile the ZAP GRS wallet, you will need:
 After installing the above prerequisites, clone the repo via git:
 
 ```bash
-git clone https://github.com/LN-Zap/zap-desktop.git
+git clone https://github.com/Groestlcoin/zap-desktop.git
 ```
 
 ### Installing Dependencies
