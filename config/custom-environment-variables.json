@@ -70,6 +70,16 @@
           "__name": "NEUTRINO_LITECOIN_MAINNET",
           "__format": "json"
         }
+      },
+      "groestlcoin": {
+        "testnet": {
+          "__name": "NEUTRINO_GROESTLCOIN_TESTNET",
+          "__format": "json"
+        },
+        "mainnet": {
+          "__name": "NEUTRINO_GROESTLCOIN_MAINNET",
+          "__format": "json"
+        }
       }
     }
   },

@@ -49,6 +49,7 @@ class CryptoAmountInput extends React.Component {
     switch (cryptoUnit) {
       case 'btc':
       case 'ltc':
+      case 'grs':
         return {
           precision: 8,
           step: '0.00000001',
@@ -57,6 +58,7 @@ class CryptoAmountInput extends React.Component {
         }
       case 'bits':
       case 'phots':
+      case 'groestls':
         return {
           precision: 2,
           step: '0.01',
@@ -65,6 +67,7 @@ class CryptoAmountInput extends React.Component {
         }
       case 'sats':
       case 'lits':
+      case 'gros':
         return {
           precision: 0,
           step: '1',

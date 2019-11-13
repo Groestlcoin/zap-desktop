@@ -27,6 +27,7 @@ export function requestNodeScores(chain, network) {
   const chainMap = {
     bitcoin: 'btc',
     litecoin: 'ltc',
+    groestlcoin: 'grs',
   }
   const networkMap = {
     mainnet: '',

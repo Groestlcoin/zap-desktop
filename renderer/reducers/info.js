@@ -66,6 +66,30 @@ const initialState = {
         unitPrefix: 't',
       },
     },
+    groestlcoin: {
+      mainnet: {
+        id: 'mainnet',
+        name: 'Mainnet',
+        explorerUrls: {
+          chainz: 'https://chainz.cryptoid.info/grs',
+          groestlsight: 'https://groestlsight.groestlcoin.org',
+          blockbook: 'https://blockbook.groestlcoin.org',
+        },
+        bitcoinJsNetwork: networks.groestlcoin.mainnet,
+        unitPrefix: '',
+      },
+      testnet: {
+        id: 'testnet',
+        name: 'Testnet',
+        explorerUrls: {
+          chainz: 'https://chainz.cryptoid.info/grs-test',
+          groestlsight: 'https://groestlsight-test.groestlcoin.org',
+          blockbook: 'https://blockbook-test.groestlcoin.org',
+        },
+        bitcoinJsNetwork: networks.groestlcoin.testnet,
+        unitPrefix: 't',
+      },
+    },
   },
   chains: {
     bitcoin: {
@@ -73,6 +97,9 @@ const initialState = {
     },
     litecoin: {
       name: 'Litecoin',
+    },
+    groestlcoin: {
+      name: 'Groestlcoin',
     },
   },
 }

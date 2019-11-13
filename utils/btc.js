@@ -151,77 +151,97 @@ export function convert(from, to, amount, price) {
   switch (from) {
     case 'btc':
     case 'ltc':
+    case 'grs':
       switch (to) {
         case 'bits':
         case 'phots':
+        case 'groestls':
           return btcToBits(amount)
         case 'sats':
         case 'lits':
+        case 'gros':
           return btcToSatoshis(amount)
         case 'msats':
         case 'mlits':
+        case 'mgros':
           return btcToMillisatoshis(amount)
         case 'fiat':
           return btcToFiat(amount, price)
         case 'btc':
         case 'ltc':
+        case 'grs':
           return Number(amount)
       }
       break
     case 'bits':
     case 'phots':
+    case 'groestls':
       switch (to) {
         case 'btc':
         case 'ltc':
+        case 'grs':
           return bitsToBtc(amount)
         case 'sats':
         case 'lits':
+        case 'gros':
           return bitsToSatoshis(amount)
         case 'msats':
         case 'mlits':
+        case 'mgros':
           return bitsToMillisatoshis(amount)
         case 'fiat':
           return bitsToFiat(amount, price)
         case 'bits':
         case 'phots':
+        case 'groestls':
           return Number(amount)
       }
       break
     case 'sats':
     case 'lits':
+    case 'gros':
       switch (to) {
         case 'btc':
         case 'ltc':
+        case 'grs':
           return satoshisToBtc(amount)
         case 'bits':
         case 'phots':
+        case 'groestls':
           return satoshisToBits(amount)
         case 'msats':
         case 'mlits':
+        case 'mgros':
           return satoshisToMillisatoshis(amount)
         case 'fiat':
           return satoshisToFiat(amount, price)
         case 'sats':
         case 'lits':
+        case 'gros':
           return Number(amount)
       }
       break
     case 'msats':
     case 'mlits':
+    case 'mgros':
       switch (to) {
         case 'btc':
         case 'ltc':
+        case 'grs':
           return millisatoshisToBtc(amount)
         case 'bits':
         case 'phots':
+        case 'groestls':
           return millisatoshisToBits(amount)
         case 'sats':
         case 'lits':
+        case 'gros':
           return millisatoshisToSatoshis(amount)
         case 'fiat':
           return millisatoshisToFiat(amount, price)
         case 'msats':
         case 'mlits':
+        case 'mgros':
           return Number(amount)
       }
       break

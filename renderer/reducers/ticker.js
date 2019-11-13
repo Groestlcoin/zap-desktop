@@ -43,6 +43,20 @@ const initialState = {
         value: 'litoshis',
       },
     ],
+    groestlcoin: [
+      {
+        key: 'grs',
+        value: 'GRS',
+      },
+      {
+        key: 'groestls',
+        value: 'groestls',
+      },
+      {
+        key: 'gros',
+        value: 'gros',
+      },
+    ],
   },
 }
 

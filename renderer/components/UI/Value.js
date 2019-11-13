@@ -29,14 +29,17 @@ const Value = ({ value, currency, currentTicker, fiatTicker, style }) => {
   switch (currency) {
     case 'btc':
     case 'ltc':
+    case 'grs':
       dp = 8
       break
     case 'bits':
     case 'phots':
+    case 'groestls':
       dp = 5
       break
     case 'sats':
     case 'lits':
+    case 'gros':
       dp = 3
       break
     case 'msats':

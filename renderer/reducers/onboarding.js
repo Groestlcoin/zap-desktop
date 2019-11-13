@@ -201,7 +201,7 @@ export function setAutopilot(autopilot) {
 /**
  * setName - Set the blockchain to connect to.
  *
- * @param {('bitcoin'|'litecoin')} chain Chain name
+ * @param {('bitcoin'|'litecoin'|'groestlcoin')} chain Chain name
  * @returns {object} Action
  */
 export function setChain(chain) {

@@ -107,7 +107,7 @@ export const getDb = name => {
         },
       },
       {
-        settingsKey: 'chain.bitcoin',
+        settingsKey: 'chain.',
         settingsPath: 'value.unit',
         configPath: 'units.bitcoin',
       },
@@ -115,6 +115,11 @@ export const getDb = name => {
         settingsKey: 'chain.litecoin',
         settingsPath: 'value.unit',
         configPath: 'units.litecoin',
+      },
+      {
+        settingsKey: 'chain.groestlcoin',
+        settingsPath: 'value.unit',
+        configPath: 'units.groestlcoin',
       },
     ]
     const newConfig = {}

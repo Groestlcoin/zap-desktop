@@ -2,6 +2,7 @@ import get from 'lodash/get'
 import config from 'config'
 import range from 'lodash/range'
 import { address } from 'bitcoinjs-lib'
+import { address as addressGRS } from 'groestlcoinjs-lib'
 import lightningRequestReq from 'bolt11'
 import coininfo from 'coininfo'
 
@@ -15,6 +16,10 @@ export const networks = {
     mainnet: coininfo.litecoin.main.toBitcoinJS(),
     testnet: coininfo.litecoin.test.toBitcoinJS(),
   },
+  groestlcoin: {
+    mainnet: coininfo.groestlcoin.main.toBitcoinJS(),
+    testnet: coininfo.groestlcoin.test.toBitcoinJS(),
+  },
 }
 
 export const coinTypes = {
@@ -26,6 +31,10 @@ export const coinTypes = {
   litecoin: {
     mainnet: 'litecoin',
     testnet: 'litecoin_testnet',
+  },
+  groestlcoin: {
+    mainnet: 'groestlcoin',
+    testnet: 'groestlcoin_testnet',
   },
 }
 
@@ -126,7 +135,12 @@ export const isOnchain = (input, chain, network) => {
     address.toOutputScript(input, networks[chain][network])
     return true
   } catch (e) {
-    return false
+    try {
+      addressGRS.toOutputScript(input, networks[chain][network])
+      return true
+    } catch (e) {
+      return false
+    }
   }
 }
 

@@ -27,6 +27,7 @@ export const types = {
 export const chains = {
   bitcoin: 'Bitcoin',
   litecoin: 'Litecoin',
+  groesltcoin: 'Groestlcoin',
 }
 
 // Supported networks.
