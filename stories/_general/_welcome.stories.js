@@ -20,10 +20,10 @@ import { Provider } from '../Provider'
 
 storiesOf('General', module)
   .addDecorator(story => <Provider story={story()} />)
-  .addWithChapters('Zap Style Guide', {
+  .addWithChapters('ZAP GRS Style Guide', {
     subtitle: 'Reusable components for Zap.',
-    info: `The Zap style guide showcases and documents our library of reusable React components. Below is a sample of
-    these components. You can see more examples and full documentation of each component using the navigation on the
+    info: `The ZAP GRS style guide showcases and documents our library of reusable React components. Below is a sample
+    of these components. You can see more examples and full documentation of each component using the navigation on the
     left. Use the Theme Picker in the bottom panel to view components in one of our alternate themes.`,
     chapters: [
       {

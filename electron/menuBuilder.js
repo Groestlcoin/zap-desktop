@@ -10,7 +10,7 @@ const path = require('path')
 
 const buildAboutMenu = () => {
   return {
-    label: 'About Zap',
+    label: 'About ZAP GRS',
     click: () => {
       const { productName, version } = getPackageDetails()
       openAboutWindow(
@@ -125,7 +125,7 @@ export default class ZapMenuBuilder {
           click: () => this.mainWindow.webContents.send('openPreferences'),
         },
         { type: 'separator' },
-        { label: 'Hide Zap', accelerator: 'Command+H', selector: 'hide:' },
+        { label: 'Hide ZAP GRS', accelerator: 'Command+H', selector: 'hide:' },
         {
           label: 'Hide Others',
           accelerator: 'Command+Shift+H',
@@ -213,19 +213,13 @@ export default class ZapMenuBuilder {
         {
           label: 'Documentation',
           click() {
-            shell.openExternal('https://github.com/LN-Zap/zap-desktop')
-          },
-        },
-        {
-          label: 'Community Discussions',
-          click() {
-            shell.openExternal('https://zaphq.slack.com')
+            shell.openExternal('https://github.com/Groestlcoin/zap-desktop')
           },
         },
         {
           label: 'Search Issues',
           click() {
-            shell.openExternal('https://github.com/LN-Zap/zap-desktop/issues')
+            shell.openExternal('https://github.com/Groestlcoin/zap-desktop/issues')
           },
         },
       ],
