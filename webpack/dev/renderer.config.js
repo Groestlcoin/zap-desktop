@@ -57,6 +57,7 @@ const config = merge.smart(baseConfig, {
         'https://bitcoinfees.earn.com',
         'https://nodes.lightning.computer',
         'https://resources.zaphq.io',
+        'https://api.coingecko.com',
       ],
       'img-src': ['http://resources.zaphq.io', 'data:'],
       'script-src': ["'self'", 'http://localhost:*', "'unsafe-eval'"],

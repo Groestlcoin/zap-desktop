@@ -36,6 +36,7 @@ const devServer = {
     ...createProxy({ url: 'www.bitstamp.net', options: { onProxyRes: deleteCookieHeader } }),
     ...createProxy({ url: 'api.kraken.com' }),
     ...createProxy({ url: 'api.bitfinex.com' }),
+    ...createProxy({ url: 'api.coingecko.com' }),
   },
 
   historyApiFallback: true,

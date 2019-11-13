@@ -1,4 +1,5 @@
 import pickBy from 'lodash/pickBy'
+import { mainLog } from '../log'
 
 /**
  * coindeskParser - Parses CoindDesk ticker data.
@@ -58,6 +59,21 @@ function bitfinexParser(currency, data) {
 }
 
 /**
+ * coingeckoParser - Parses Bitstamp ticker data.
+ *
+ * @param {string} currency Currency name
+ * @param {object} data Ticker data
+ * @returns {object} Price data from Bitstamp
+ */
+function coingeckoParser(currency, data) {
+  const tickerData = data.data.groestlcoin
+  const rate = tickerData[Object.keys(tickerData)[0]]
+  return {
+    [currency]: rate,
+  }
+}
+
+/**
  * createConfig - Creates provider config for the specified `coin` and `currency`.
  *
  * @param {('BTC'|'LTC')} coin Crypto currency of interest
@@ -113,6 +129,12 @@ export function createConfig(coin, currency) {
       apiUrl: formatUrl(`api.coindesk.com/v1/bpi/currentprice/${coin}.json`),
       parser: coindeskParser,
     },
+    coingecko: {
+      coins: ['BTC','GRS'],
+      name: "Coingecko",
+      apiUrl: formatUrl(`api.coingecko.com/api/v3/simple/price?ids=groestlcoin&vs_currencies=${currency}`),
+      parser:  coingeckoParser.bind(null, currency),
+    }
   }
   // remove disabled providers as well as ones that don't support requested currency or coin
   return pickBy(
