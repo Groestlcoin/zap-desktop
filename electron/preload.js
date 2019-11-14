@@ -29,6 +29,7 @@ const WHITELISTED_DOMAINS = [
   'testnet.smartbit.com.au',
   'litecore.io',
   'www.smartbit.com.au',
+  'groestlcoin.org',
 ]
 
 /**

@@ -7,7 +7,7 @@ cd $(mktemp -d)
 echo "Downloading build artefacts to temporary directory:"
 pwd
 
-curl https://api.github.com/repos/LN-Zap/zap-desktop/releases/latest | jq '.assets[].browser_download_url' | xargs wget
+curl https://api.github.com/repos/Groestlcoin/zap-desktop/releases/latest | jq '.assets[].browser_download_url' | xargs wget
 
 echo "Calculating checksums and signing the result..."
 

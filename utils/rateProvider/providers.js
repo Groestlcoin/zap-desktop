@@ -1,62 +1,61 @@
 import pickBy from 'lodash/pickBy'
-import { mainLog } from '../log'
 
-/**
- * coindeskParser - Parses CoindDesk ticker data.
- *
- * @param {object} data Ticker data
- * @returns {object} Price data from Coinbase
- */
-function coindeskParser(data) {
-  const { bpi } = data
-  return Object.keys(bpi).reduce((acc, next) => {
-    acc[next] = bpi[next].rate_float
-    return acc
-  }, {})
-}
+// /**
+//  * coindeskParser - Parses CoindDesk ticker data.
+//  *
+//  * @param {object} data Ticker data
+//  * @returns {object} Price data from Coinbase
+//  */
+// function coindeskParser(data) {
+//   const { bpi } = data
+//   return Object.keys(bpi).reduce((acc, next) => {
+//     acc[next] = bpi[next].rate_float
+//     return acc
+//   }, {})
+// }
 
-/**
- * bitstampParser - Parses Bitstamp ticker data.
- *
- * @param {string} currency Currency name
- * @param {object} data Ticker data
- * @returns {object} Price data from Bitstamp
- */
-function bitstampParser(currency, data) {
-  return {
-    [currency]: data.data.last,
-  }
-}
+// /**
+//  * bitstampParser - Parses Bitstamp ticker data.
+//  *
+//  * @param {string} currency Currency name
+//  * @param {object} data Ticker data
+//  * @returns {object} Price data from Bitstamp
+//  */
+// function bitstampParser(currency, data) {
+//   return {
+//     [currency]: data.data.last,
+//   }
+// }
 
-/**
- * krakenParser - Parses Kraken ticker data.
- *
- * @param {string} currency Currency name
- * @param {object} data Ticker data
- * @returns {object} Price data from Kraken
- */
-function krakenParser(currency, data) {
-  const tickerData = data.data.result
-  // kraken has weird resulting tickers format like XXBTZUSD
-  // so we just pick first key of the result
-  const rate = tickerData[Object.keys(tickerData)[0]].c[0]
-  return {
-    [currency]: rate,
-  }
-}
+// /**
+//  * krakenParser - Parses Kraken ticker data.
+//  *
+//  * @param {string} currency Currency name
+//  * @param {object} data Ticker data
+//  * @returns {object} Price data from Kraken
+//  */
+// function krakenParser(currency, data) {
+//   const tickerData = data.data.result
+//   // kraken has weird resulting tickers format like XXBTZUSD
+//   // so we just pick first key of the result
+//   const rate = tickerData[Object.keys(tickerData)[0]].c[0]
+//   return {
+//     [currency]: rate,
+//   }
+// }
 
-/**
- * bitfinexParser - Parses Bitfinex ticker data.
- *
- * @param {string} currency Currency name
- * @param {object} data Ticker data
- * @returns {object} Price data from Bitfinex
- */
-function bitfinexParser(currency, data) {
-  return {
-    [currency]: data.data.last_price,
-  }
-}
+// /**
+//  * bitfinexParser - Parses Bitfinex ticker data.
+//  *
+//  * @param {string} currency Currency name
+//  * @param {object} data Ticker data
+//  * @returns {object} Price data from Bitfinex
+//  */
+// function bitfinexParser(currency, data) {
+//   return {
+//     [currency]: data.data.last_price,
+//   }
+// }
 
 /**
  * coingeckoParser - Parses Bitstamp ticker data.
@@ -86,12 +85,12 @@ export function createConfig(coin, currency) {
 
   const formatUrl = url => `${scheme}${url}`
 
-  const KRAKEN_FORMAT = {
-    BTC: 'XBT',
-    LTC: 'LTC',
-  }
+  //const KRAKEN_FORMAT = {
+  //  BTC: 'XBT',
+  //  LTC: 'LTC',
+  //}
   const config = {
-    coinbase: {
+    /*coinbase: {
       coins: ['BTC', 'LTC'],
       name: 'Coinbase',
       id: 'coinbase',
@@ -128,13 +127,15 @@ export function createConfig(coin, currency) {
       name: 'Coindesk',
       apiUrl: formatUrl(`api.coindesk.com/v1/bpi/currentprice/${coin}.json`),
       parser: coindeskParser,
-    },
+    },*/
     coingecko: {
-      coins: ['BTC','GRS'],
-      name: "Coingecko",
-      apiUrl: formatUrl(`api.coingecko.com/api/v3/simple/price?ids=groestlcoin&vs_currencies=${currency}`),
-      parser:  coingeckoParser.bind(null, currency),
-    }
+      coins: ['GRS'],
+      name: 'Coingecko',
+      apiUrl: formatUrl(
+        `api.coingecko.com/api/v3/simple/price?ids=groestlcoin&vs_currencies=${currency}`
+      ),
+      parser: coingeckoParser.bind(null, currency),
+    },
   }
   // remove disabled providers as well as ones that don't support requested currency or coin
   return pickBy(

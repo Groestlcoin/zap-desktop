@@ -11,7 +11,7 @@ module.exports = {
 
   // Database settings.
   db: {
-    namespace: 'ZapDesktop',
+    namespace: 'ZapGrsDesktop',
     domain: isStableVersion(getPackageDetails().version, STABLE_VERSION) ? null : 'next',
   },
 
@@ -26,13 +26,13 @@ module.exports = {
   },
 
   // Supported chains.
-  chains: ['bitcoin', 'litecoin'],
+  chains: ['bitcoin', 'litecoin', 'groestlcoin'],
 
   // Supported networks.
   networks: ['testnet', 'mainnet'],
 
   // Default chain for new wallets.
-  chain: 'bitcoin',
+  chain: 'groestlcoin',
 
   // Default network for new wallets.
   network: 'mainnet',
@@ -82,6 +82,10 @@ module.exports = {
         testnet: [],
         mainnet: [],
       },
+      groestlcoin: {
+        testnet: [],
+        mainnet: [],
+      },
     },
 
     assumechanvalid: true,
@@ -92,12 +96,13 @@ module.exports = {
   units: {
     bitcoin: 'sats',
     litecoin: 'lits',
+    groestlcoin: 'gros',
   },
 
   // Default block explorer (blockstream|blockcypher|smartbit|insight)
-  blockExplorer: 'blockstream',
+  blockExplorer: 'chainz',
   // Default exchange rate provider (coinbase|bitstamp|kraken|bitfinex)
-  rateProvider: 'coinbase',
+  rateProvider: 'coingecko',
   // Default invoice settings
   invoices: {
     expire: 3600,
@@ -116,7 +121,7 @@ module.exports = {
     // Default view mode(card|list)
     viewMode: 'card',
     // JSON feed for suggested nodes list
-    suggestedNodes: 'https://resources.zaphq.io/api/v1/suggested-nodes',
+    suggestedNodes: 'https://groestlcoin.org/suggestedpeers.json',
   },
 
   // feature flags to enable/disable experimental functionality
@@ -125,7 +130,7 @@ module.exports = {
     // enables/disables mainnet lnd autopilot setting selection
     // if false, autopilot selection won't be available
     mainnetAutopilot: false,
-    networkSelection: false,
+    networkSelection: true,
     scbRestore: false,
   },
 
