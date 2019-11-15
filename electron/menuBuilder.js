@@ -310,7 +310,7 @@ export default class ZapMenuBuilder {
           {
             label: 'Documentation',
             click() {
-              shell.openExternal('https://github.com/LN-Zap/zap-desktop')
+              shell.openExternal('https://github.com/Groestlcoin/zap-desktop')
             },
           },
           {
@@ -322,7 +322,7 @@ export default class ZapMenuBuilder {
           {
             label: 'Search Issues',
             click() {
-              shell.openExternal('https://github.com/LN-Zap/zap-desktop/issues')
+              shell.openExternal('https://github.com/Groestlcoin/zap-desktop/issues')
             },
           },
           buildAboutMenu(),
