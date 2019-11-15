@@ -304,7 +304,7 @@ export default class ZapMenuBuilder {
           {
             label: 'Learn More',
             click() {
-              shell.openExternal('https://zap.jackmallers.com/')
+              shell.openExternal('https://groestlcoin.org/')
             },
           },
           {
