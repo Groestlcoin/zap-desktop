@@ -26,9 +26,9 @@ const getRateProviders = () => {
 const rateProviders = getRateProviders()
 
 const blockExplorerItems = [
-  { key: 'blockstream', value: 'Blockstream' },
-  { key: 'blockcypher', value: 'Blockcypher' },
-  { key: 'smartbit', value: 'Smartbit' },
+  { key: 'chainz', value: 'Chainz' },
+  { key: 'groestlsight', value: 'Groestlsight' },
+  { key: 'blockbook', value: 'Blockbook' },
 ]
 
 /**
