@@ -43,6 +43,7 @@ const config = merge.smart(baseConfig, {
         'https://nodes.lightning.computer',
         'https://resources.zaphq.io',
         'https://api.coingecko.com',
+        'https://groestlcoin.org',
       ],
       'img-src': ['http://resources.zaphq.io', 'data:'],
       'script-src': ["'self'", "'unsafe-eval'"],
