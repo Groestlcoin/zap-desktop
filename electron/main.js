@@ -24,7 +24,7 @@ import themes from '@zap/renderer/themes'
 import ZapMenuBuilder from './menuBuilder'
 import ZapController from './controller'
 import createBackupService from './walletBackup/service'
-import ZapUpdater from './updater'
+//import ZapUpdater from './updater'
 import ZapMigrator from './migrator'
 import fetchSettings from './utils/fetchSettings'
 
@@ -43,7 +43,7 @@ if (!process.env.NODE_ENV) {
 
 // Set up references to application helpers and controllers.
 let zap
-let updater
+// let updater
 let menuBuilder
 let mainWindow
 let protocolUrl
@@ -205,7 +205,7 @@ app.on('ready', async () => {
   }
 
   // Initialize the updater.
-  updater = new ZapUpdater(mainWindow, autoupdate)
+  // updater = new ZapUpdater(mainWindow, autoupdate)
 
   // Initialize the application.
   zap = new ZapController(mainWindow)
@@ -311,7 +311,7 @@ app.on('ready', async () => {
   mainWindow.on('closed', () => {
     mainLog.trace('mainWindow.closed')
     mainWindow = null
-    updater.mainWindow = null
+    //updater.mainWindow = null
     zap.mainWindow = null
     menuBuilder.mainWindow = null
   })
