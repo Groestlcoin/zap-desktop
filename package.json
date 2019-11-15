@@ -1,6 +1,6 @@
 {
   "name": "zap-grs-desktop",
-  "productName": "ZAP_GRS",
+  "productName": "ZAP GRS",
   "version": "0.5.4-beta",
   "description": "desktop application for the lightning network",
   "scripts": {
@@ -60,7 +60,7 @@
     "yarn": ">=1.0.0"
   },
   "build": {
-    "productName": "ZAP_GRS",
+    "productName": "ZAP GRS",
     "appId": "org.groestlcoin.Zap",
     "generateUpdatesFilesForAllChannels": true,
     "files": [
