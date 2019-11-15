@@ -158,7 +158,7 @@ app.on('ready', async () => {
   //  - set the background colour of the window to avoid unwanted flicker.
   //  - Initialize the Language menu with the users locale selected by default.
   //  - Enable auto updates based on user preferences.
-  let autoupdate = {}
+  //let autoupdate = {}
   let theme = {}
   let locale = null
 
@@ -168,7 +168,7 @@ app.on('ready', async () => {
       const currentConfig = getSetting(settings, 'config') || {}
       const themeKey = currentConfig.theme || config.theme
       locale = currentConfig.locale || config.locale
-      autoupdate = currentConfig.autoupdate || config.autoupdate
+      //autoupdate = currentConfig.autoupdate || config.autoupdate
       theme = themes[themeKey]
     } catch (e) {
       mainLog.warn('Unable to determine user settings: %s', e.message)
