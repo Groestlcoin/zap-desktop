@@ -13,12 +13,12 @@
    id="Layer_1"
    x="0px"
    y="0px"
-   viewBox="0 0 24 24"
+   viewBox="0 0 22 22"
    xml:space="preserve"
    sodipodi:docname="cloud-lightning.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   width="24"
-   height="24"><sodipodi:namedview
+   width="22"
+   height="22"><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
    borderopacity="1"
@@ -32,8 +32,8 @@
    id="namedview18"
    showgrid="false"
    inkscape:zoom="10.727273"
-   inkscape:cx="-22.09322"
-   inkscape:cy="10.627119"
+   inkscape:cx="23.728812"
+   inkscape:cy="10.440678"
    inkscape:window-x="67"
    inkscape:window-y="27"
    inkscape:window-maximized="1"
@@ -77,7 +77,7 @@
 </style>
 <g
    id="g875"
-   transform="matrix(0.23,0,0,0.23,-9.321,8.2597777)"
+   transform="matrix(0.22,0,0,0.22,-9.394,7.4294814)"
    style="fill:#ffffff;fill-opacity:1"><path
      style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.38986355;stroke-opacity:1"
      inkscape:connector-curvature="0"
