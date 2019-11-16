@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { currencies, locales, getLanguageName } from '@zap/i18n'
-import { Bar, DataRow, Toggle, Select } from 'components/UI'
+import { Bar, DataRow, Select } from 'components/UI'
 import { FieldLabel } from './SettingsFieldHelpers'
 import messages from './messages'
 
@@ -67,7 +67,6 @@ const SettingsFieldsGeneral = ({ currentConfig }) => {
           />
         }
       />
-      
     </>
   )
 }
