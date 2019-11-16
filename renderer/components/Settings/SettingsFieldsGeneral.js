@@ -67,13 +67,7 @@ const SettingsFieldsGeneral = ({ currentConfig }) => {
           />
         }
       />
-
-      <Bar variant="light" />
-
-      <DataRow
-        left={<FieldLabel itemKey="autoupdate.active" />}
-        right={<Toggle field="autoupdate.active" initialValue={currentConfig.autoupdate.active} />}
-      />
+      
     </>
   )
 }
