@@ -17,6 +17,20 @@ Object {
         "value": "satoshis",
       },
     ],
+    "groestlcoin": Array [
+      Object {
+        "key": "grs",
+        "value": "GRS",
+      },
+      Object {
+        "key": "groestls",
+        "value": "groestls",
+      },
+      Object {
+        "key": "gros",
+        "value": "gros",
+      },
+    ],
     "litecoin": Array [
       Object {
         "key": "ltc",
@@ -80,6 +94,20 @@ Object {
         "value": "satoshis",
       },
     ],
+    "groestlcoin": Array [
+      Object {
+        "key": "grs",
+        "value": "GRS",
+      },
+      Object {
+        "key": "groestls",
+        "value": "groestls",
+      },
+      Object {
+        "key": "gros",
+        "value": "gros",
+      },
+    ],
     "litecoin": Array [
       Object {
         "key": "ltc",
@@ -141,6 +169,20 @@ Object {
       Object {
         "key": "sats",
         "value": "satoshis",
+      },
+    ],
+    "groestlcoin": Array [
+      Object {
+        "key": "grs",
+        "value": "GRS",
+      },
+      Object {
+        "key": "groestls",
+        "value": "groestls",
+      },
+      Object {
+        "key": "gros",
+        "value": "gros",
       },
     ],
     "litecoin": Array [

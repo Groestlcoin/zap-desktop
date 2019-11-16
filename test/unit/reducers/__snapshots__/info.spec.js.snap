@@ -7,6 +7,9 @@ Object {
     "bitcoin": Object {
       "name": "Bitcoin",
     },
+    "groestlcoin": Object {
+      "name": "Groestlcoin",
+    },
     "litecoin": Object {
       "name": "Litecoin",
     },
@@ -124,6 +127,108 @@ Object {
         "unitPrefix": "t",
       },
     },
+    "groestlcoin": Object {
+      "mainnet": Object {
+        "bitcoinJsNetwork": Object {
+          "bech32": "grs",
+          "bip32": Object {
+            "private": 76066276,
+            "public": 76067358,
+          },
+          "dustThreshold": null,
+          "hashGenesisBlock": "00000ac5927c594d49cc0bdb81759d0da8297eb614683d3acb62f0703b639023",
+          "messagePrefix": "GroestlCoin Signed Message:
+",
+          "name": "Groestlcoin",
+          "per1": 100000000,
+          "port": 1331,
+          "portRpc": 1441,
+          "protocol": Object {
+            "magic": 3568615161,
+          },
+          "pubKeyHash": 36,
+          "scriptHash": 5,
+          "seedsDns": Array [
+            "dnsseed1.groestlcoin.org",
+            "dnsseed2.groestlcoin.org",
+            "dnsseed3.groestlcoin.org",
+            "dnsseed4.groestlcoin.org",
+          ],
+          "testnet": false,
+          "toBitcoinJS": [Function],
+          "toBitcore": [Function],
+          "unit": "GRS",
+          "versions": Object {
+            "bip32": Object {
+              "private": 76066276,
+              "public": 76067358,
+            },
+            "bip44": 17,
+            "private": 128,
+            "public": 36,
+            "scripthash": 5,
+          },
+          "wif": 128,
+        },
+        "explorerUrls": Object {
+          "blockbook": "https://blockbook.groestlcoin.org",
+          "chainz": "https://chainz.cryptoid.info/grs",
+          "groestlsight": "https://groestlsight.groestlcoin.org",
+        },
+        "id": "mainnet",
+        "name": "Mainnet",
+        "unitPrefix": "",
+      },
+      "testnet": Object {
+        "bitcoinJsNetwork": Object {
+          "bech32": "tgrs",
+          "bip32": Object {
+            "private": 70615956,
+            "public": 70617039,
+          },
+          "dustThreshold": null,
+          "hashGenesisBlock": "0x000000ffbb50fc9898cdd36ec163e6ba23230164c0052a28876255b7dcf2cd36",
+          "messagePrefix": "GroestlCoin Signed Message:
+",
+          "name": "Groestlcoin",
+          "per1": 100000000,
+          "port": 17777,
+          "portRpc": 17766,
+          "protocol": Object {
+            "magic": 118034699,
+          },
+          "pubKeyHash": 111,
+          "scriptHash": 196,
+          "seedsDns": Array [
+            "testnet-seed1.groestlcoin.org",
+            "testnet-seed2.groestlcoin.org",
+          ],
+          "testnet": true,
+          "toBitcoinJS": [Function],
+          "toBitcore": [Function],
+          "unit": "GRS",
+          "versions": Object {
+            "bip32": Object {
+              "private": 70615956,
+              "public": 70617039,
+            },
+            "bip44": 1,
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+          },
+          "wif": 239,
+        },
+        "explorerUrls": Object {
+          "blockbook": "https://blockbook-test.groestlcoin.org",
+          "chainz": "https://chainz.cryptoid.info/grs-test",
+          "groestlsight": "https://groestlsight-test.groestlcoin.org",
+        },
+        "id": "testnet",
+        "name": "Testnet",
+        "unitPrefix": "t",
+      },
+    },
     "litecoin": Object {
       "mainnet": Object {
         "bitcoinJsNetwork": Object {
@@ -227,6 +332,9 @@ Object {
   "chains": Object {
     "bitcoin": Object {
       "name": "Bitcoin",
+    },
+    "groestlcoin": Object {
+      "name": "Groestlcoin",
     },
     "litecoin": Object {
       "name": "Litecoin",
@@ -353,6 +461,108 @@ Object {
         "unitPrefix": "t",
       },
     },
+    "groestlcoin": Object {
+      "mainnet": Object {
+        "bitcoinJsNetwork": Object {
+          "bech32": "grs",
+          "bip32": Object {
+            "private": 76066276,
+            "public": 76067358,
+          },
+          "dustThreshold": null,
+          "hashGenesisBlock": "00000ac5927c594d49cc0bdb81759d0da8297eb614683d3acb62f0703b639023",
+          "messagePrefix": "GroestlCoin Signed Message:
+",
+          "name": "Groestlcoin",
+          "per1": 100000000,
+          "port": 1331,
+          "portRpc": 1441,
+          "protocol": Object {
+            "magic": 3568615161,
+          },
+          "pubKeyHash": 36,
+          "scriptHash": 5,
+          "seedsDns": Array [
+            "dnsseed1.groestlcoin.org",
+            "dnsseed2.groestlcoin.org",
+            "dnsseed3.groestlcoin.org",
+            "dnsseed4.groestlcoin.org",
+          ],
+          "testnet": false,
+          "toBitcoinJS": [Function],
+          "toBitcore": [Function],
+          "unit": "GRS",
+          "versions": Object {
+            "bip32": Object {
+              "private": 76066276,
+              "public": 76067358,
+            },
+            "bip44": 17,
+            "private": 128,
+            "public": 36,
+            "scripthash": 5,
+          },
+          "wif": 128,
+        },
+        "explorerUrls": Object {
+          "blockbook": "https://blockbook.groestlcoin.org",
+          "chainz": "https://chainz.cryptoid.info/grs",
+          "groestlsight": "https://groestlsight.groestlcoin.org",
+        },
+        "id": "mainnet",
+        "name": "Mainnet",
+        "unitPrefix": "",
+      },
+      "testnet": Object {
+        "bitcoinJsNetwork": Object {
+          "bech32": "tgrs",
+          "bip32": Object {
+            "private": 70615956,
+            "public": 70617039,
+          },
+          "dustThreshold": null,
+          "hashGenesisBlock": "0x000000ffbb50fc9898cdd36ec163e6ba23230164c0052a28876255b7dcf2cd36",
+          "messagePrefix": "GroestlCoin Signed Message:
+",
+          "name": "Groestlcoin",
+          "per1": 100000000,
+          "port": 17777,
+          "portRpc": 17766,
+          "protocol": Object {
+            "magic": 118034699,
+          },
+          "pubKeyHash": 111,
+          "scriptHash": 196,
+          "seedsDns": Array [
+            "testnet-seed1.groestlcoin.org",
+            "testnet-seed2.groestlcoin.org",
+          ],
+          "testnet": true,
+          "toBitcoinJS": [Function],
+          "toBitcore": [Function],
+          "unit": "GRS",
+          "versions": Object {
+            "bip32": Object {
+              "private": 70615956,
+              "public": 70617039,
+            },
+            "bip44": 1,
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+          },
+          "wif": 239,
+        },
+        "explorerUrls": Object {
+          "blockbook": "https://blockbook-test.groestlcoin.org",
+          "chainz": "https://chainz.cryptoid.info/grs-test",
+          "groestlsight": "https://groestlsight-test.groestlcoin.org",
+        },
+        "id": "testnet",
+        "name": "Testnet",
+        "unitPrefix": "t",
+      },
+    },
     "litecoin": Object {
       "mainnet": Object {
         "bitcoinJsNetwork": Object {
@@ -456,6 +666,9 @@ Object {
   "chains": Object {
     "bitcoin": Object {
       "name": "Bitcoin",
+    },
+    "groestlcoin": Object {
+      "name": "Groestlcoin",
     },
     "litecoin": Object {
       "name": "Litecoin",
@@ -568,6 +781,108 @@ Object {
           "blockcypher": "https://live.blockcypher.com/btc-testnet",
           "blockstream": "https://blockstream.info/testnet",
           "smartbit": "https://testnet.smartbit.com.au",
+        },
+        "id": "testnet",
+        "name": "Testnet",
+        "unitPrefix": "t",
+      },
+    },
+    "groestlcoin": Object {
+      "mainnet": Object {
+        "bitcoinJsNetwork": Object {
+          "bech32": "grs",
+          "bip32": Object {
+            "private": 76066276,
+            "public": 76067358,
+          },
+          "dustThreshold": null,
+          "hashGenesisBlock": "00000ac5927c594d49cc0bdb81759d0da8297eb614683d3acb62f0703b639023",
+          "messagePrefix": "GroestlCoin Signed Message:
+",
+          "name": "Groestlcoin",
+          "per1": 100000000,
+          "port": 1331,
+          "portRpc": 1441,
+          "protocol": Object {
+            "magic": 3568615161,
+          },
+          "pubKeyHash": 36,
+          "scriptHash": 5,
+          "seedsDns": Array [
+            "dnsseed1.groestlcoin.org",
+            "dnsseed2.groestlcoin.org",
+            "dnsseed3.groestlcoin.org",
+            "dnsseed4.groestlcoin.org",
+          ],
+          "testnet": false,
+          "toBitcoinJS": [Function],
+          "toBitcore": [Function],
+          "unit": "GRS",
+          "versions": Object {
+            "bip32": Object {
+              "private": 76066276,
+              "public": 76067358,
+            },
+            "bip44": 17,
+            "private": 128,
+            "public": 36,
+            "scripthash": 5,
+          },
+          "wif": 128,
+        },
+        "explorerUrls": Object {
+          "blockbook": "https://blockbook.groestlcoin.org",
+          "chainz": "https://chainz.cryptoid.info/grs",
+          "groestlsight": "https://groestlsight.groestlcoin.org",
+        },
+        "id": "mainnet",
+        "name": "Mainnet",
+        "unitPrefix": "",
+      },
+      "testnet": Object {
+        "bitcoinJsNetwork": Object {
+          "bech32": "tgrs",
+          "bip32": Object {
+            "private": 70615956,
+            "public": 70617039,
+          },
+          "dustThreshold": null,
+          "hashGenesisBlock": "0x000000ffbb50fc9898cdd36ec163e6ba23230164c0052a28876255b7dcf2cd36",
+          "messagePrefix": "GroestlCoin Signed Message:
+",
+          "name": "Groestlcoin",
+          "per1": 100000000,
+          "port": 17777,
+          "portRpc": 17766,
+          "protocol": Object {
+            "magic": 118034699,
+          },
+          "pubKeyHash": 111,
+          "scriptHash": 196,
+          "seedsDns": Array [
+            "testnet-seed1.groestlcoin.org",
+            "testnet-seed2.groestlcoin.org",
+          ],
+          "testnet": true,
+          "toBitcoinJS": [Function],
+          "toBitcore": [Function],
+          "unit": "GRS",
+          "versions": Object {
+            "bip32": Object {
+              "private": 70615956,
+              "public": 70617039,
+            },
+            "bip44": 1,
+            "private": 239,
+            "public": 111,
+            "scripthash": 196,
+          },
+          "wif": 239,
+        },
+        "explorerUrls": Object {
+          "blockbook": "https://blockbook-test.groestlcoin.org",
+          "chainz": "https://chainz.cryptoid.info/grs-test",
+          "groestlsight": "https://groestlsight-test.groestlcoin.org",
         },
         "id": "testnet",
         "name": "Testnet",

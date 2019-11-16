@@ -69,8 +69,38 @@ Object {
     },
   ],
   "suggestedNodes": Object {
-    "mainnet": Array [],
-    "testnet": Array [],
+    "mainnet": Array [
+      Object {
+        "description": "",
+        "host": "104.236.133.196",
+        "image": "",
+        "nickname": "grspay.com",
+        "pubkey": "0391c8d0e27fe61ed8cb8784aeae5848bd8b193ea5720dea32ca2694a326fe41f9",
+      },
+      Object {
+        "description": "",
+        "host": "104.236.130.222",
+        "image": "",
+        "nickname": "\\"LNmainnet",
+        "pubkey": "03046e1650b0e67925d260f4888f809598af6cef58fbfc6446fbd4fddf1828ca3d",
+      },
+    ],
+    "testnet": Array [
+      Object {
+        "description": "",
+        "host": "95.179.140.39",
+        "image": "",
+        "nickname": "grspay.com",
+        "pubkey": "0384dee0ec597a7b8235ccf56c68ffa0af5dae72b3455aa3ecb81c4fc4eef9ef2c",
+      },
+      Object {
+        "description": "",
+        "host": "45.32.236.128",
+        "image": "",
+        "nickname": "LNtestnet",
+        "pubkey": "02435dea09ad875c36c88f680845277245e7e8bdd28b3bb20470e82e4de0c3cb09",
+      },
+    ],
   },
   "suggestedNodesError": null,
   "suggestedNodesLoading": false,
@@ -147,8 +177,38 @@ Object {
     },
   ],
   "suggestedNodes": Object {
-    "mainnet": Array [],
-    "testnet": Array [],
+    "mainnet": Array [
+      Object {
+        "description": "",
+        "host": "104.236.133.196",
+        "image": "",
+        "nickname": "grspay.com",
+        "pubkey": "0391c8d0e27fe61ed8cb8784aeae5848bd8b193ea5720dea32ca2694a326fe41f9",
+      },
+      Object {
+        "description": "",
+        "host": "104.236.130.222",
+        "image": "",
+        "nickname": "\\"LNmainnet",
+        "pubkey": "03046e1650b0e67925d260f4888f809598af6cef58fbfc6446fbd4fddf1828ca3d",
+      },
+    ],
+    "testnet": Array [
+      Object {
+        "description": "",
+        "host": "95.179.140.39",
+        "image": "",
+        "nickname": "grspay.com",
+        "pubkey": "0384dee0ec597a7b8235ccf56c68ffa0af5dae72b3455aa3ecb81c4fc4eef9ef2c",
+      },
+      Object {
+        "description": "",
+        "host": "45.32.236.128",
+        "image": "",
+        "nickname": "LNtestnet",
+        "pubkey": "02435dea09ad875c36c88f680845277245e7e8bdd28b3bb20470e82e4de0c3cb09",
+      },
+    ],
   },
   "suggestedNodesError": null,
   "suggestedNodesLoading": false,
@@ -225,8 +285,38 @@ Object {
     },
   ],
   "suggestedNodes": Object {
-    "mainnet": Array [],
-    "testnet": Array [],
+    "mainnet": Array [
+      Object {
+        "description": "",
+        "host": "104.236.133.196",
+        "image": "",
+        "nickname": "grspay.com",
+        "pubkey": "0391c8d0e27fe61ed8cb8784aeae5848bd8b193ea5720dea32ca2694a326fe41f9",
+      },
+      Object {
+        "description": "",
+        "host": "104.236.130.222",
+        "image": "",
+        "nickname": "\\"LNmainnet",
+        "pubkey": "03046e1650b0e67925d260f4888f809598af6cef58fbfc6446fbd4fddf1828ca3d",
+      },
+    ],
+    "testnet": Array [
+      Object {
+        "description": "",
+        "host": "95.179.140.39",
+        "image": "",
+        "nickname": "grspay.com",
+        "pubkey": "0384dee0ec597a7b8235ccf56c68ffa0af5dae72b3455aa3ecb81c4fc4eef9ef2c",
+      },
+      Object {
+        "description": "",
+        "host": "45.32.236.128",
+        "image": "",
+        "nickname": "LNtestnet",
+        "pubkey": "02435dea09ad875c36c88f680845277245e7e8bdd28b3bb20470e82e4de0c3cb09",
+      },
+    ],
   },
   "suggestedNodesError": null,
   "suggestedNodesLoading": false,
