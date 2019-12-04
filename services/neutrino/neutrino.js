@@ -299,7 +299,7 @@ class Neutrino extends EventEmitter {
       `--rpclisten=${this.lndConfig.host}`,
       `--listen=${listen}`,
       `--restlisten=${restlisten}`,
-      `${this.lndConfig.assumechanvalid ? '--routing.assumechanvalid' : ''}`,
+      //`${this.lndConfig.assumechanvalid ? '--routing.assumechanvalid' : ''}`,
       `${this.lndConfig.alias ? `--alias=${this.lndConfig.alias}` : ''}`,
       ...autopilotArgs,
       ...neutrinoArgs,
@@ -367,9 +367,9 @@ class Neutrino extends EventEmitter {
   getNeutrinoArgs() {
     const neutrinoArgs = []
 
-    neutrinoArgs.push('--bitcoin.node=neutrino')
-    neutrinoArgs.push('--neutrino.useragentname=zap-desktop')
-    neutrinoArgs.push(`--neutrino.useragentversion=${getPackageDetails().version}`)
+    neutrinoArgs.push('--groestlcoin.node=neutrino')
+    //neutrinoArgs.push('--neutrino.useragentname=zap-grs-desktop')
+    //neutrinoArgs.push(`--neutrino.useragentversion=${getPackageDetails().version}`)
     neutrinoArgs.push(`--${this.lndConfig.chain}.${this.lndConfig.network}`)
     config.lnd.neutrino[this.lndConfig.chain][this.lndConfig.network].forEach(node =>
       neutrinoArgs.push(`--neutrino.addpeer=${node}`)
