@@ -146,14 +146,14 @@ module.exports = {
     filename: 'channels.backup',
     gdrive: {
       redirectUrl:
-        'com.zap.backup:com.googleusercontent.apps.495822519525-hjpegnbi493ebcrg4t8e7nfa8c3orr4m',
-      clientId: '495822519525-hjpegnbi493ebcrg4t8e7nfa8c3orr4m.apps.googleusercontent.com',
+        'org.groestlcoin.zap-grs:com.googleusercontent.apps.557449694502-187ae583t4s4360nelmc907459rlbiq1',
+      clientId: '557449694502-187ae583t4s4360nelmc907459rlbiq1.apps.googleusercontent.com',
       scope: 'https://www.googleapis.com/auth/drive.file',
     },
 
     dropbox: {
-      redirectUrl: 'http://localhost/zapdropbox',
-      clientId: 'yox444ow4051e1c',
+      redirectUrl: 'http://localhost/zapgrsdropbox',
+      clientId: 'oll9zvmwgogad91',
     },
   },
 }
