@@ -370,6 +370,7 @@ class Neutrino extends EventEmitter {
     neutrinoArgs.push('--groestlcoin.node=neutrino')
     //neutrinoArgs.push('--neutrino.useragentname=zap-grs-desktop')
     //neutrinoArgs.push(`--neutrino.useragentversion=${getPackageDetails().version}`)
+    getPackageDetails() // put this hear to avoid warnings
     neutrinoArgs.push(`--${this.lndConfig.chain}.${this.lndConfig.network}`)
     config.lnd.neutrino[this.lndConfig.chain][this.lndConfig.network].forEach(node =>
       neutrinoArgs.push(`--neutrino.addpeer=${node}`)
