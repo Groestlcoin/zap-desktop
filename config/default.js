@@ -83,8 +83,8 @@ module.exports = {
         mainnet: [],
       },
       groestlcoin: {
-        testnet: ['95.179.191.212'],
-        mainnet: ['199.247.31.182'],
+        testnet: ['grsd-testnet.groestlcoin.org'],
+        mainnet: ['grsd-mainnet.groestlcoin.org'],
       },
     },
 
