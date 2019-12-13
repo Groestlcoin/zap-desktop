@@ -65,7 +65,7 @@ function openHelpPage() {
  * openTestnetFaucet - Open a testnet faucet in a new browser window.
  */
 function openTestnetFaucet() {
-  openExternal('https://coinfaucet.eu/en/btc-testnet/')
+  openExternal('https://coinfaucet.eu/en/grs-testnet/')
 }
 
 /**
