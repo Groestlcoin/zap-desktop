@@ -1,7 +1,7 @@
 {
   "name": "zap-grs-desktop",
   "productName": "ZAP GRS",
-  "version": "0.5.4-beta",
+  "version": "0.5.5-beta",
   "description": "desktop application for the lightning network",
   "scripts": {
     "build": "cross-env NODE_CONFIG_ENV=production webpack -r @babel/register --config webpack/webpack.config.prod.js",
