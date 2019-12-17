@@ -44,8 +44,8 @@
   },
   "config": {
     "lnd-binary": {
-      "binaryVersion": "0.8.0-beta-rc3",
-      "binarySite": "https://github.com/Groestlcoin/zap-binaries/releases/download"
+      "binaryVersion": "0.8.2-grs",
+      "binarySite": "https://github.com/Groestlcoin/lnd/releases/download"
     }
   },
   "sideEffects": [
